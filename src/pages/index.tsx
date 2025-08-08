@@ -68,7 +68,7 @@ function Movies() {
 
       <div className='movies'>
         {filteredMovies.map((movie) => (
-            <Link href={`/movies/${movie.id}`} key={movie.id}>
+            <Link style={{color:'black'}}href={`/movies/${movie.id}`} key={movie.id}>
           <div className='movie-items' key={movie.id}>
             <img
               src={movie.poster}
